@@ -66,7 +66,7 @@ b) Operasi-operasi dasar terhadap array secara keseluruhan adalah :
 
 ### 1. Program Input Array
 
-C++
+```C++
 #include <iostream>
 using namespace std;
 //PROGRAM INPUT ARRAY 3 DIMENSI
@@ -113,21 +113,21 @@ int main()
         cout << endl;
     }
 }
-
+```
 ### Output:
 
-![Guided 1 output](https://github.com/diahintannuraini/praktikum-2/assets/162097079/7752bd82-2a5a-4dc3-a12a-031275412ff5)
+![Guided 1 output](https://github.com/diahintannuraini/praktikum-2-alpro/assets/162097079/d45d2ac5-3909-471f-957d-97a53ad832cc)
 
 Output tersebut menunjukkan nilai-nilai dalam array tiga dimensi yang disebut "Input Array" dan "Data Array". Setiap elemen dalam array diinisialisasi dengan angka sesuai dengan indeksnya. Kemudian, program mencetak kembali nilai-nilai tersebut dalam format matriks dua dimensi. Matriks tersebut terdiri dari dua matriks, dipisahkan oleh baris kosong. Setiap matriks menunjukkan bagian dari array tiga dimensi yang sesuai. Program tersebut berhasil mengumpulkan dan menampilkan kembali nilai-nilai dalam array tiga dimensi dengan format matriks dua dimensi yang mana matriks pertama menunjukkan bagian pertama dari array tiga dimensi, sedangkan matriks kedua menunjukkan bagian kedua.
 
 ### Full Screen shoot:
 
-![guided 1 full](https://github.com/diahintannuraini/praktikum-2/assets/162097079/bc249213-177d-433e-8040-aba41ccafb71)
+![guided 1 full](https://github.com/diahintannuraini/praktikum-2-alpro/assets/162097079/e10c9ea4-1549-40ad-a801-15fa34484988)
 
 
 ### 2. Program Mencari Nilai  Maksimal Pada Array
 
-C++
+```C++
 #include <iostream>
 using namespace std;
 
@@ -154,22 +154,23 @@ int main()
     }
     cout << "Nilai maksimum adalah " << maks << " berada di Array ke " << lokasi << endl;
 }
-
+```
 ### Output:
 
-![output guided 2](https://github.com/diahintannuraini/praktikum-2/assets/162097079/fdb9d6f4-4abc-41d3-8414-8ee1df268a21)
+![output guided 2](https://github.com/diahintannuraini/praktikum-2-alpro/assets/162097079/84f62b49-346c-4385-b23d-119e841dc72b)
+
 
 diminta untuk memasukkan panjang array, yang dalam kasus ini adalah 4. Setelah itu, program meminta pengguna untuk memasukkan empat angka secara berurutan. Setelah itu memasukkan angka-angka tersebut, program menemukan nilai maksimum dari array yang dimasukkan, yaitu 4, dan mencatat bahwa nilai tersebut berada pada indeks ke-3 dalam array. Membuktikan bahwa program berhasil memproses array yang dimasukkan pengguna dan menemukan nilai maksimumnya, serta menunjukkan indeks di mana nilai maksimum tersebut ditemukan.
 
 ### Full Screen Shoot:
 
-![guided 2 full](https://github.com/diahintannuraini/praktikum-2/assets/162097079/26829e1a-015c-4743-8697-9b971c80c3dc)
+![guided 2 full](https://github.com/diahintannuraini/praktikum-2-alpro/assets/162097079/89b80d66-1e1d-4ad5-a720-e10b1fb7cb58)
 
 ## Unguided 
 
 ### 1. [Buatlah program untuk menampilkan Output seperti berikut dengan data yang diinputkan oleh user!]
 
-C++
+```C++
 #include <iostream>
 using namespace std;
 
@@ -203,10 +204,10 @@ int main() {
   cout << endl;
   return 0;
 }
-
+```
 #### Output:
 
-![output unguided 1](https://github.com/diahintannuraini/praktikum-2/assets/162097079/138faa4d-c70c-4ee5-9ed6-3f64e163ed85)
+![output unguided 1](https://github.com/diahintannuraini/praktikum-2-alpro/assets/162097079/083ecfb4-6b0f-4dbf-a3a1-4e7549c12a68)
 
  Dari hasil kodingan tersebut, pengguna diminta untuk memasukkan 10 angka secara berurutan. Setelah pengguna memasukkan angka-angka tersebut, program mencetak kembali angka-angka tersebut sebagai "Data Array".
  Program mengidentifikasi angka genap dan angka ganjil dari angka-angka yang dimasukkan. Dalam hal ini, angka genap adalah angka yang habis dibagi dua tanpa sisa, sedangkan angka ganjil adalah angka yang tidak habis dibagi dua. 
@@ -214,11 +215,11 @@ Maka dari itu, program berhasil mengumpulkan dan menampilkan kembali data yang d
 
 #### Full Screenshot:
 
-![unguided 1 full](https://github.com/diahintannuraini/praktikum-2/assets/162097079/e6c9dc88-d3c3-4154-9bc1-d6a8d89e2298)
+![unguided 1 full](https://github.com/diahintannuraini/praktikum-2-alpro/assets/162097079/4beff89b-2430-424d-82eb-c82095fb9320)
 
 ### 2. [Buatlah program Input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!]
 
-C++
+```C++
 
 #include <iostream>
 using namespace std;
@@ -266,21 +267,21 @@ int main() {
     }
     return 0;
 }
-
+```
 
 
 ### Output:
 
-![output unguided 2](https://github.com/diahintannuraini/praktikum-2/assets/162097079/00364f72-82cc-401e-811b-2353c8190d6e)
+![output unguided 2](https://github.com/diahintannuraini/praktikum-2-alpro/assets/162097079/9639f1f1-dd67-4899-9d86-d40909555491)
 
   memasukkan panjang B, C, dan D secara berurutan. Setelah itu, program menampilkan data masukan ke dalam array tiga dimensi yang disebut "Input Array". Kemudian, program mencetak kembali data tersebut sebagai "Data Array". jadi, program berhasil mengumpulkan input pengguna dan menampilkan kembali data tersebut dalam format yang diminta. Array yang ditampilkan adalah matriks dua dimensi dengan dimensi sesuai dengan input yang dimasukkan pengguna. Setiap elemen dalam matriks adalah nilai yang telah dimasukkan oleh pengguna sesuai dengan indeks yang ditentukan.
 
 ### Full Screen Shoot:
 
-![unguided 2 full](https://github.com/diahintannuraini/praktikum-2/assets/162097079/234e2db8-3365-4769-adde-5b154bf7b6fe)
+![unguided 2 full](https://github.com/diahintannuraini/praktikum-2-alpro/assets/162097079/fb53b080-09b1-4b2a-8086-b7beda795020)
 
 ### 3. [Buatlah program menu untuk mencari nilai Maksimum, Minimum dan Nilai rata – rata dari suatu array dengan input yang dimasukan oleh user!]
-C++
+```C++
 #include <iostream>
 using namespace std;
 
@@ -315,16 +316,16 @@ int main() {
     
     return 0;
 }
-
+```
 ### Output: 
 
-![output unguided 3](https://github.com/diahintannuraini/praktikum-2/assets/162097079/dd205346-23df-43db-b10b-e73f5be7333c)
+![output unguided 3](https://github.com/diahintannuraini/praktikum-2-alpro/assets/162097079/f1826916-d091-46e3-8ccf-a8dbcb94a369)
 
 Output yang diberikan menunjukkan hasil dari pemrosesan data array yang telah dimasukkan. Diminta untuk memasukkan jumlah angka dalam data array, yang dalam kasus ini adalah 5. Kemudian, diminta untuk memasukkan angka-angka tersebut satu per satu. Setelah semua angka dimasukkan, program melakukan perhitungan terhadap data array yang telah dimasukkan. Program menemukan nilai maksimum dari data array, yang dalam kasus ini adalah 5. Selanjutnya, program juga menemukan nilai minimum, yang adalah 1. Terakhir, program menghitung nilai rata-rata dari seluruh angka dalam data array, yang dalam kasus ini adalah 3. Maka dari itu, program berhasil memproses data array yang dimasukkan pengguna dan menghasilkan informasi statistik seperti nilai maksimum, minimum, dan rata-rata dari data tersebut.
 
 ### Full Screen Shoot:
 
-![unguided 3 full](https://github.com/diahintannuraini/praktikum-2/assets/162097079/d554cdd2-68ec-41a1-8a80-445e4f7a76a9)
+![unguided 3 full](https://github.com/diahintannuraini/praktikum-2-alpro/assets/162097079/496349d6-29e0-4c38-b8e1-6a76d45e8f5a)
 
 ## Kesimpulan
 Setelah menyelesaikan ketiga program tersebut, terlihat adanya pola yang sering muncul dalam penggunaan array. Ini mencakup kemampuannya dalam menyimpan data secara terstruktur, melakukan perulangan dan operasi perhitungan pada data tersebut, serta memberikan fleksibilitas kepada pengguna untuk menentukan bentuk array, memasukkan data, dan mendapatkan output sesuai kebutuhan mereka. Dengan demikian, penggunaan array dapat dikatakan sebagai alat yang sangat berguna untuk mengelola data secara terstruktur dan efisien.
